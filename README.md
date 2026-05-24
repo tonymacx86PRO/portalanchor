@@ -1,5 +1,9 @@
 # Portal Anchor
 
+<p align="center">
+  <img src="docs/assets/portalanchor-icon.png" alt="Portal Anchor icon" width="256">
+</p>
+
 Portal Anchor is a small Fabric mod for Minecraft `26.1.2`.
 
 It gives mobs a short grace window after they move between dimensions, so vanilla does not instantly despawn them just because every player in the destination dimension is far away.
