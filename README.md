@@ -4,7 +4,7 @@
   <img src="docs/assets/portalanchor-icon.png" alt="Portal Anchor icon" width="256">
 </p>
 
-Portal Anchor is a small Fabric mod for Minecraft `26.1.2`.
+Portal Anchor is a small Fabric mod for Minecraft.
 
 It gives mobs a short grace window after they move between dimensions, so vanilla does not instantly despawn them just because every player in the destination dimension is far away.
 
@@ -18,7 +18,7 @@ The original use case is portal-based mob farms. A mob can go through a Nether p
 - Leaves Peaceful difficulty cleanup alone.
 - Does not make mobs permanent.
 
-Default grace time is `30` seconds.
+Default grace time is `30` seconds. That should be enough for normal servers; only increase it for unusual portal or farm setups that need more time.
 
 ## Commands
 
@@ -63,7 +63,7 @@ Default config:
 
 ## Building
 
-This project targets Java 25.
+This project targets Java 25 (JDK 25 needs to be installed). Example how to build it on Arch Linux:
 
 ```bash
 JAVA_HOME=/usr/lib/jvm/java-25-openjdk ./gradlew build

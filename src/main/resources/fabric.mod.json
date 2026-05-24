@@ -3,7 +3,7 @@
 	"id": "portalanchor",
 	"version": "${version}",
 	"name": "Portal Anchor",
-	"description": "Stops mobs from despawning after they go through portals into far-away loaded dimensions, so portal-based farms keep working.",
+	"description": "Keeps portal-traveling mobs alive long enough to stop far-away dimension despawns from breaking portal farms.",
 	"authors": [
 		"Vergil"
 	],

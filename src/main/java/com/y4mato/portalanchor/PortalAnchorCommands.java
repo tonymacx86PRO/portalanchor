@@ -46,7 +46,7 @@ public final class PortalAnchorCommands {
 		sendStatusLine(source, "State", PortalAnchor.isEnabled() ? "enabled" : "disabled", PortalAnchor.isEnabled() ? ChatFormatting.GREEN : ChatFormatting.RED);
 		sendStatusLine(source, "Grace window", PortalAnchor.getPortalDespawnGraceTicks() / 20 + "s (" + PortalAnchor.getPortalDespawnGraceTicks() + " ticks)", ChatFormatting.AQUA);
 		sendStatusLine(source, "Mobs anchored", String.valueOf(PortalAnchor.getAnchoredMobCount()), ChatFormatting.YELLOW);
-		sendStatusLine(source, "Despawns blocked", String.valueOf(PortalAnchor.getProtectedDespawnChecks()), ChatFormatting.LIGHT_PURPLE);
+		sendStatusLine(source, "Despawn checks blocked", String.valueOf(PortalAnchor.getProtectedDespawnChecks()), ChatFormatting.LIGHT_PURPLE);
 		sendStatusLine(source, "Last mob", PortalAnchor.getLastAnchoredMob(), ChatFormatting.WHITE);
 		sendStatusLine(source, "Last route", PortalAnchor.getLastAnchorRoute(), ChatFormatting.WHITE);
 		sendConfigStatus(source);
