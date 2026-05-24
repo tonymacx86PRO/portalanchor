@@ -3,13 +3,13 @@
 	"id": "portalanchor",
 	"version": "${version}",
 	"name": "Portal Anchor",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Stops mobs from despawning after they go through portals into far-away loaded dimensions, so portal-based farms keep working.",
 	"authors": [
-		"Me!"
+		"Vergil"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/tonymacx86PRO/portalanchor"
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/portalanchor/icon.png",
@@ -17,17 +17,10 @@
 	"entrypoints": {
 		"main": [
 			"com.y4mato.portalanchor.PortalAnchor"
-		],
-		"client": [
-			"com.y4mato.portalanchor.client.PortalAnchorClient"
 		]
 	},
 	"mixins": [
-		"portalanchor.mixins.json",
-		{
-			"config": "portalanchor.client.mixins.json",
-			"environment": "client"
-		}
+		"portalanchor.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.19.2",
