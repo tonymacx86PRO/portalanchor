@@ -11,7 +11,7 @@
 		"homepage": "https://y4mato.com/",
 		"sources": "https://github.com/tonymacx86PRO/portalanchor"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/portalanchor/icon.png",
 	"environment": "*",
 	"entrypoints": {
